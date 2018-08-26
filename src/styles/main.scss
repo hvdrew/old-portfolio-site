@@ -1,0 +1,15 @@
+@import './partials/_partials.scss';
+
+.header {
+	background-color: $primary;
+	
+	.logo {
+		max-height: 44px;
+		max-width: 100%;
+	}
+
+	.nav-link {
+		float: right;
+		margin: auto 0;
+	}
+}
