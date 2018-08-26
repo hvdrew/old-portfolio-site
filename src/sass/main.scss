@@ -1,0 +1,27 @@
+@import './reset';
+
+%max-hw {
+	height: 100%;
+	width: 100%;
+}
+
+html,
+body,
+#___gatsby,
+#___gatsby > div {
+	@extend %max-hw;
+	background-color: #2e2e2e;
+}
+
+.content {
+	@extend %max-hw;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+}
+
+.construction {
+	grid-column: 6 / 7;
+	grid-row: 6 / 7;
+	justify-self: center;
+}

@@ -1,10 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
+// import Link from 'gatsby-link'
+import logo from '../assets/logo-white.png'
 
 const IndexPage = () => (
-  <div>
-    <h1>Under Construction</h1>
-    <p>Pardon the dust while we make some updates.</p>
+  <div className="content">
+    <div className="construction">
+      <img src={logo} />
+    </div>
   </div>
 )
 
