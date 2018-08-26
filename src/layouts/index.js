@@ -16,6 +16,7 @@ const Layout = ({ children, data }) => (
       ]} 
     >
     {/* <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></link> */}
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     </Helmet>
     {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
     {/* <div
