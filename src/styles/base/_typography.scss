@@ -1,0 +1,36 @@
+body,
+html {
+	font-family: $primary-font;
+	line-height: 1.5rem;
+}
+
+p {
+	text-align: justify;
+	padding: 0 0 1rem;
+}
+
+h1 {
+	font-size: 2.25rem;
+	margin: 1rem 0;
+	line-height: 2.75rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+	padding: 0;
+	font-weight: 300;
+	line-height: 2rem;
+}
+
+hr {
+	overflow: visible;
+	margin: 1.5rem 1rem;
+	border: none;
+	border-top: medium double $dark-secondary;
+	color: $dark-secondary;
+	text-align: center;
+}
+
+.row p {
+	padding: 1rem 0;
+}

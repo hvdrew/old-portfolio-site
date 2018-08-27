@@ -1,28 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from './logo-white.png';
+import logo from '../assets/logo-white.png';
 
 const Header = ({ siteTitle }) => (
   <div
-    className="header"
-    style={{
-      marginBottom: '1.45rem',
-    }}
+    id="header"
   >
-    <div
-      style={{
-        maxWidth: 960,
-        margin: '0 auto',
-        padding: '15px 0 10px'
-      }}
-    >
-        <Link to="/">
-          <img src={logo} className="logo" />
-        </Link>
-        <div className="nav-links">
-          <Link to="page-2" className="nav-link">Page 2</Link>
-        </div>
-    </div>
+    <Link className="nav-logo" to="/"><img src={logo} alt="Main Logo" /></Link>
+    <Link className="nav-link" to="/page-2">Contact</Link>
   </div>
 )
 
