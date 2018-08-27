@@ -5,7 +5,7 @@
  */
 
  // You can delete this file if you're not using it
- 
+require('typeface-roboto')
 exports.onRouteUpdate = ({ location }) => {
 	dataLayer.push({ event: 'pageview' });
 }

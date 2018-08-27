@@ -9,7 +9,8 @@
     "gatsby-plugin-google-tagmanager": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typeface-roboto": "^0.0.54"
   },
   "keywords": [
     "gatsby"
