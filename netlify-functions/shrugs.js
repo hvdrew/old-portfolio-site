@@ -1,4 +1,4 @@
-import querystring from 'querystring';
+const querystring = require('querystring');
 
 exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
